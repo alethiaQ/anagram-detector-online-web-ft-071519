@@ -14,7 +14,7 @@ attr_accessor :word
       split_word = @word.split("").sort
 
       if split_arr_word == split_word
-        return anagram_array[word.index]
+        return word.split 
       else
         return empty = []
 
