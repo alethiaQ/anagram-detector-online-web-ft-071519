@@ -10,12 +10,12 @@ attr_accessor :word
 
   def match(anagram_array)
     anagram_array.each do |word|
-      split_arr_word = word.split("")
-      split_word = @word.split("")
+      split_arr_word = word.split("").sort
+      split_word = @word.split("").sort
 
-      if split_word.sort == split_arr_word.sort
-        word
-      
+      if split_arr_word == split_word
+        return word
+
 
       end
     end
