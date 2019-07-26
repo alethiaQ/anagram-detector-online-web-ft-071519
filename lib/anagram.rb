@@ -8,17 +8,9 @@ attr_accessor :word
 
   end
 
-  def match(anagram_array)
-    anagram_array.each do |word|
-      split_arr_word = word.split("").sort
-      split_word = @word.split("").sort
-
-      if split_arr_word == split_word
-        word.split
-      else
-        return empty = []
-
-      end
+  def match(array)
+    array.map do |word|
+      word.split("").sort == @word.split("").sort
     end
   end
 
