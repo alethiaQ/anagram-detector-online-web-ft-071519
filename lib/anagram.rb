@@ -19,9 +19,9 @@ attr_accessor :word
       else
         return empty = []
       end
-
+      @matches
     end
-    @matches
+
   end
 
 
