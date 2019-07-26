@@ -15,7 +15,8 @@ attr_accessor :word
 
       if split_arr_word == split_word
         return word
-
+      else
+        return empty = []
 
       end
     end
