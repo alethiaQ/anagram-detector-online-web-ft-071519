@@ -15,9 +15,9 @@ attr_accessor :word
 
       if split_word.sort == split_arr_word.sort
         word
-      else
-        return empty = []
-      end 
+      
+
+      end
     end
   end
 
