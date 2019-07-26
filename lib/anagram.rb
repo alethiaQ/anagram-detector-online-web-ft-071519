@@ -1,5 +1,5 @@
 # Your code goes here!
-class Anagram 
+class Anagram
 
   def initialize(word)
 
