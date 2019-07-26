@@ -14,7 +14,7 @@ attr_accessor :word
       split_word = @word.split("").sort
 
       if split_arr_word == split_word
-        return %w(word)
+        return %w("#{word}")
       else
         return empty = []
 
